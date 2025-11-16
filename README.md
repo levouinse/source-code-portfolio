@@ -24,27 +24,28 @@ Dibangun untuk menunjukkan skill frontend dengan struktur kode bersih, cepat, da
 
 ---
 
-## 🎬 Live Demo
+## 🎬 Demo
 
-👉 **Demo Online:** *[akan ditambahkan — upload ke Vercel/Netlify]*  
-👉 **Preview Screenshot:** (ganti dengan gambar Anda)
+### 🔗 **Live Demo:**  
+*(Akan ditambahkan setelah deploy ke Vercel/Netlify)*  
+[Link Demo (akan ditambahkan)](#)
 
-![Preview Screenshot](assets/images/preview.png)
-
-*(Tambahkan file screenshot Anda di folder `assets/images/` lalu update README ini)*
+### 📸 **Preview Screenshot:**  
+![Preview Screenshot](assets/images/preview.png)  
+*(Tambahkan screenshot Anda di folder `assets/images/` dan update link di sini)*
 
 ---
 
 ## ✨ Features
 
-- ⚡ Super fast build dengan **Vite**
-- 🔷 TypeScript untuk type safety
-- 🎨 Desain modern & clean dengan **TailwindCSS**
-- 🧩 Komponen siap pakai dari **shadcn/ui**
-- 🌙 Dark/Light Theme
-- 📱 Fully responsive
-- ⚛️ React Hooks & Functional Components
-- 🧱 Struktur clean & scalable
+- ⚡ **Vite** untuk build super cepat
+- 🔷 **TypeScript** untuk type safety
+- 🎨 Desain modern menggunakan **TailwindCSS**
+- 🧩 Komponen reusable dari **shadcn/ui**
+- 🌙 **Dark Mode** tersedia
+- 📱 **Fully responsive**
+- ⚛️ Menggunakan **React Hooks** dan **Functional Components**
+- 🧱 Struktur proyek yang bersih dan scalable
 
 ---
 
@@ -52,24 +53,26 @@ Dibangun untuk menunjukkan skill frontend dengan struktur kode bersih, cepat, da
 
 | Teknologi       | Fungsi |
 |----------------|--------|
-| React          | Library UI |
+| React          | Library UI utama |
 | Vite           | Dev server & bundler cepat |
-| TypeScript     | Static typing |
-| TailwindCSS    | Styling modern |
-| shadcn/ui      | UI components |
-| CSS3           | Custom styling |
+| TypeScript     | Static typing untuk kode yang lebih aman |
+| TailwindCSS    | Framework styling modern |
+| shadcn/ui      | Komponen UI reusable dan accessible |
+| CSS3           | Custom styling untuk elemen tambahan |
 
 ---
 
 ## 🚀 Installation & Setup
 
-Pastikan **Node.js v18+** terinstal.
+### Prasyarat
+Pastikan **Node.js v18+** telah terinstal di sistem Anda.
 
+### Langkah-langkah Instalasi
 ```bash
 # Clone repository
 git clone https://github.com/levouinse/source-code-portfolio.git
 
-# Masuk project
+# Masuk ke folder proyek
 cd source-code-portfolio
 
 # Install dependencies
@@ -77,30 +80,41 @@ npm install
 
 # Jalankan development server
 npm run dev
-Aplikasi berjalan di:
+Aplikasi akan berjalan di:
 
 arduino
 Copy code
 http://localhost:5173
 🛠️ Build for Production
+Jika Anda ingin membuat versi produksi dari aplikasi:
+
 bash
 Copy code
+# Build untuk produksi
 npm run build
+
+# Preview versi build
 npm run preview
+Output akan tersedia di folder dist/.
+
 📁 Project Structure
+Berikut adalah struktur folder dari proyek ini:
+
 bash
 Copy code
 src/
 │── components/     # Reusable UI components
 │── components/ui/  # shadcn/ui components
-│── pages/          # Halaman utama
+│── pages/          # Halaman utama aplikasi
 │── sections/       # Bagian portfolio (Hero, About, Projects, Contact)
 │── hooks/          # Custom hooks
-│── lib/            # Utilities
-│── styles/         # Global CSS
-│── App.tsx         # Root app
-│── main.tsx        # Entry point
+│── lib/            # Utilities / helper functions
+│── styles/         # Global styling dan CSS
+│── App.tsx         # Komponen utama aplikasi
+│── main.tsx        # Entry point Vite
 🧩 shadcn/ui Usage
+Berikut adalah contoh cara menggunakan komponen dari shadcn/ui di aplikasi Anda:
+
 tsx
 Copy code
 import { Button } from "@/components/ui/button";
@@ -109,33 +123,31 @@ export default function Example() {
   return <Button>Click Me</Button>;
 }
 🎨 Styling
-TailwindCSS utilities
+Menggunakan TailwindCSS untuk styling dasar
 
-Custom CSS3 di src/styles/global.css
+CSS3 digunakan untuk custom styling di src/styles/global.css
 
 📜 License
-Proyek ini dirilis di bawah MIT License.
-Bebas digunakan, dimodifikasi, dan dikembangkan.
+Proyek ini menggunakan MIT License.
+Silakan gunakan, modifikasi, dan kembangkan sesuai kebutuhan.
 
 🤝 Contributing
 Kontribusi sangat diterima!
 
-Fork repository
+Fork repository ini
 
-Buat branch baru
+Buat branch baru untuk fitur atau perbaikan yang ingin ditambahkan
 
 Commit perubahan
 
-Pull request
+Buat Pull Request untuk kontribusi Anda
 
 ⭐ Support This Project
-Berikan ⭐ star pada repo untuk mendukung pengembangan:
+Jika Anda merasa proyek ini bermanfaat, beri ⭐ star di GitHub:
 
-👉 https://github.com/levouinse/source-code-portfolio
+👉 Source Code Portfolio GitHub
 
 📧 Contact
-Untuk kerja sama, pertanyaan, atau kolaborasi:
+Untuk kolaborasi, pertanyaan, atau saran lainnya, silakan hubungi:
 
 📩 Email: kofikampoes@gmail.com
-
-Terima kasih sudah menggunakan dan mendukung project ini! 🙌🚀
